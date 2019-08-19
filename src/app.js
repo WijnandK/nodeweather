@@ -38,7 +38,8 @@ app.get("/help", (req, res) => {
   res.render("help", {
     title: "help page",
     message: "You can get help at",
-    email: "helpme@mail.com"
+    email: "deleted",
+    name: "Wijnand Korlaar"
   });
 });
 app.get("/help/*", (req, res) => {
