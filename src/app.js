@@ -42,7 +42,7 @@ app.get("/help", (req, res) => {
 });
 app.get("/help/*", (req, res) => {
   res.render("404", {
-    error: "something Helps but we didnt found it"
+    error: "Sorry, soomething goes wrong"
   });
 });
 
